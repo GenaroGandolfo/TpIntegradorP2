@@ -5,17 +5,51 @@ let computadoras ={
             nombre: "Compu",
             precio: "450",
             descripcion: "balaba",
-            imagen: ""
+            imagen: "razerblade.jpeg"
 
 
         },
         {
-            id: 0,
+            id: 1,
             nombre: "Compu",
             precio: "450",
             descripcion: "balaba",
             imagen: ""
 
+
+        },
+        {
+            id: 2,
+            nombre: "Lenovo",
+            precio: "450",
+            descripcion: "balaba",
+            imagen: ""
+
+        },
+        {
+            id: 3,
+            nombre: "HP",
+            precio: "450",
+            descripcion: "balaba",
+            imagen: "razerblade.jpeg"
+
+
+        },
+        {
+            id: 4,
+            nombre: "Linux",
+            precio: "450",
+            descripcion: "balaba",
+            imagen: ""
+
+
+        },
+        {
+            id: 5,
+            nombre: "Mac",
+            precio: "450",
+            descripcion: "balaba",
+            imagen: ""
 
         },
     ]

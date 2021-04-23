@@ -1,0 +1,52 @@
+
+<!-- Include Head -->
+<head>
+	<%- include('./partials/head') %>  
+</head>
+
+	<body>
+		<%- include('./partials/header') %>
+				
+				<div class="container products-wrapper">
+					<div class="d-flex align-items-center">
+						<h2 class="products-title"><%= computadoras.nombre %> </h2> 
+						<p class="product-detail-description">
+							<a href="/product-add">Editar</a>
+						</p>
+						
+	
+					</div>
+					<div class="product-detail">
+						<div class="row">
+							<article class="col-12 col-lg-8 product-detail-info">
+								<img src="/compusImg/<%=computadoras.imagen%>" alt=".product-detail-img">
+								<p class="product-detail-price">Precio : <%= computadoras.precio %></p>
+								<p class="product-detail-description"><%= computadoras.descripcion %> </p>
+							</article>
+							<div class="col-12 col-lg-4">
+								<section class="comments">
+									<article>
+										<img src="/" alt="userIcon">
+										<div class="data">
+											<p class="user">
+											<strong> <a href="/">Gena Gandolfo</a> </strong>
+											La mejor innovación</p>
+										</div>
+									</article>
+									
+			
+			
+								</section>
+								<form class="form" action="" method="POST">
+									<input class="form-input" type="text" value="" placeholder="Agregar comentario">
+									<button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
+								</form>
+								<hr>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<%- include('./partials/footer') %>
+	
+	</body>

@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<!-- Include Head -->
+<head>
+    <%- include('./partials/head') %>  
+
+</head>
+<body>
+	<%- include('./partials/header') %>
+
+	<!-- Banner -->
+	<div class="banner">
+		<img src="" alt="Banner de ofertas">
+	</div>
+	<!-- /Banner -->
+
+	<h1 class= "nuestros-productos" style="text-align: center;"><%= title %></h1>
+	<div class="container products-wrapper">
+		<div class="row">
+			<% for (let i=0; i<computadoras.length; i ++){ %>
+				  <div class="col-12 col-sm-6 col-lg-3">
+					<section class="product-box">
+					  <a href="/product/<%=computadoras[i].id %>">
+						  <figure class="product-box_image">
+							  <img src="./compusImg/<%= computadoras[i].imagen %> " alt="ete">
+						  </figure>
+						  <article class="product-box_data">
+							  <h2><%= computadoras[i].nombre %></h2>
+							  <p>Precio : <%= computadoras[i].precio %></p>
+							  <p>Comentarios: 5</p>
+				<a href="/product/<%=computadoras[i].id %>" class= "btn btn-primary">Ver detalles</a>
+						  </article>
+					  </a>
+				  </section>
+			  </div>
+			  <% } %>
+	  </div>
+	</div>
+			
+
+
+	<!-- footer -->
+	
+	<%- include('./partials/footer') %>
+	<!-- /footer -->
+</body>	
 </html>
