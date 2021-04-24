@@ -84,6 +84,22 @@ let computadoras ={
             imagen: "razerblade.jpeg"
 
         },
+        {
+            id: 10,
+            nombre: "Acer Chromebook Spin 713",
+            precio: "450",
+            descripcion: "El Chromebook Spin 13 convertible tiene bisagras de 360 ​​grados para usar como tableta, computadora portátil, pantalla o en modo tienda. Viene con un lápiz Wacom (para entrada de lápiz) que se puede almacenar cómodamente en la ranura del dispositivo.",
+            imagen: "chromebook.jpg"
+
+        },
+        {
+            id: 11,
+            nombre: "Asus Zenbook 14",
+            precio: "1399",
+            descripcion: "Diseñado para potenciar su creatividad, ZenBook 14 no sacrifica rendimiento por tamaño. Está diseñado para brindarle toda la potencia bruta que necesita para una informática en movimiento sin esfuerzo. Con los últimos procesadores Intel® Core ™, gráficos NVIDIA® discretos y un complemento completo de componentes de alta calidad y alto rendimiento, ZenBook 14 nunca lo hará esperar. Ya sea que esté creando documentos complejos, extrayendo datos, retocando fotos o editando videos, ZenBook 14 le permite hacer más, y hacerlo más rápido.",
+            imagen: "zenbook.jpg"
+
+        },
     ]
 }
 module.exports = computadoras;
