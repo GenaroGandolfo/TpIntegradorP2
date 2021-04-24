@@ -69,12 +69,18 @@ hr {
 /*====== Main Header ======*/
 .main-header {
   padding: 15px 0;
-  background-color: var(--yellow);
+  background-color: var(--light-gray);
 }
 
-.main-header_home-link,
+.main-header_home-link{
+  display: block;
+  height: 50;
+  width: auto;
+}
+
 .main-header_credit-link {
   display: block;
+  height: 50px;
 }
 
 .main-header_credit-link {
@@ -124,7 +130,7 @@ hr {
 }
 
 .main-navbar {
-  margin-top: 20px;
+  margin-top: 0px;
   display: none;
 }
 
@@ -159,9 +165,13 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100px;
+  height: 350px;
+  
 }
-
+.banner img{
+  height: 300px;
+  width: 100%;
+}
 
 /*====== Products ======*/
 .products-wrapper {
