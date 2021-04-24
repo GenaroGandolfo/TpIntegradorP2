@@ -165,12 +165,14 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 350px;
+  height: 700px;
+  margin-bottom: 70px;
   
 }
 .banner img{
-  height: 300px;
+  height: 350px;
   width: 100%;
+  margin-bottom: 5px;
 }
 
 /*====== Products ======*/
