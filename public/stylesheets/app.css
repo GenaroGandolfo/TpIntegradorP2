@@ -193,6 +193,10 @@ hr {
   margin: 20px 0;
 }
 
+.product-detail img{
+  height: 1000px;
+}
+
 .product-box a {
   display: block;
 }
