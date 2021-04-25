@@ -68,7 +68,6 @@ hr {
 
 /*====== Main Header ======*/
 .main-header {
-  padding: 15px 0;
   background-color: var(--light-gray);
 }
 
@@ -116,6 +115,13 @@ hr {
   cursor: pointer;
 }
 
+.row{
+  display: flex;
+  border-bottom: solid 1px black;
+  width: 100%;
+}
+
+
 
 /*====== Main Navbar ======*/
 .btn-toggle-navbar {
@@ -132,11 +138,13 @@ hr {
 .main-navbar {
   margin-top: 0px;
   display: none;
+  padding: 3px;
 }
 
 .left-navbar,
 .right-navbar {
   font-size: 1.5em;
+  
 }
 
 .logout{
