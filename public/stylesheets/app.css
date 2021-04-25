@@ -119,8 +119,10 @@ hr {
   display: flex;
   border-bottom: solid 1px black;
   width: 100%;
+  margin: 0px;
 }
 
+.row
 
 
 /*====== Main Navbar ======*/
@@ -204,7 +206,7 @@ hr {
 }
 
 .product-detail img{
-  height: 1000px;
+  height: 600px;
 }
 
 .product-box a {
@@ -285,12 +287,12 @@ hr {
 /*====== Footer ======*/
 .main-footer {
   background-color: #ffffff;
-  padding: 20px 0;
-  margin-top: 80px;
-}
+  padding: 5px 0;
+} 
 
 .footer-data {
   text-align: center;
+  align-items: center;
 }
 
 .footer-data i {
@@ -298,10 +300,19 @@ hr {
   font-size: 3.5em;
 }
 
+.footernombres{
+  padding-top: 30px;
+}
+
 .footer-data h2 {
   color: var(--gray);
-  font-size: 2.4em;
+  font-size: 1.8em;
   font-weight: 400;
+}
+
+.footer-data img{
+  height: 150px;
+  width: auto;
 }
 
 .footer-data p {
