@@ -7,7 +7,6 @@ var router = express.Router();
 var usersController = require('../controllers/userControllers')
 
 router.get('/register', usersController.register)
-
 router.get('/login',  usersController.login)
 router.get('/profile', usersController.profile)
 router.get('/profile-edit', usersController.profileEdit)
