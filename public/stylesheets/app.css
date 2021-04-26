@@ -70,6 +70,9 @@ hr {
 .main-header {
   background-color: var(--light-gray);
 }
+.volver{
+  font-size: 15px;
+}
 
 .main-header_home-link{
   display: block;
