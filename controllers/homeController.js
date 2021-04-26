@@ -1,5 +1,4 @@
 const computadoras = require('../data/computadoras')
-
 module.exports = {
     index: (req, res)=>{
                 return res.render('index', {title: 'TODOS LOS PRODUCTOS', computadoras: computadoras.lista })

@@ -117,13 +117,14 @@ hr {
 
 .row{
   display: flex;
-  border-bottom: solid 1px black;
   width: 100%;
   margin: 0px;
 }
 
-.row
-
+.todosLosProductos{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
 
 /*====== Main Navbar ======*/
 .btn-toggle-navbar {
@@ -487,6 +488,29 @@ textarea.form-input {
   min-height: 140px;
   resize: vertical;
   padding: 15px;
+}
+
+.formulario{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 ;
+  box-sizing:border-box ; 
+  zoom: 150%; 
+  align-items: center;
+}
+
+.form-control{
+  align-items: center;
+  width: max-content;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin: 4px 2px;
+}
+
+.cc{
+  font-size: 15px;
+  align-items: center;
 }
 
 /*====== Profile ======*/
