@@ -14,49 +14,41 @@
 	
 
 	<!-- Novedades -->
+	
 	<div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
 				<h2 class="products-title">Ingresá</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
-			
-			<h2 class="col-12"> 
-
-				<section class="container">
-					<form action="/users/profile"></form>
-				</section>
-			</h2>
-
-			<section class="bg-home pt-15">
-				<div class="container"></div>
-					<div class="row">
-						<div class="col-8 mx-auto bg-light pt-2 ">
-							<div class="signup-form">
-								<form action="" method="post" class="formulario">
-									<div class="form-group">
-										<input type="email" class="form-control" name="email" placeholder="Email" required="required">
-									</div>
-									<div class="form-group">
-										<input type="password" class="form-control" name="password" placeholder="Contraseña" required="required">
-									</div>
-									<div class="form-group " > 
-										<button  type="submit" class="btn btn btn-info"><a href="/users/profile"> Ingresá </a></button>
-									</div>
-									
-									<div class="form-group col-8 offset-2">
-										<input type="checkbox"><label class="checkbox-inline">Recordame</label>
-									</div>
-								</form>
-							</div>
-						</div>                        
-					</div>
+			<form action="login.ejs" method="POST" class="formulario"> 
+				
+				<div class="NombreYApellido">
+					<input type="text" class="form-control" placeholder="Email" name="Apellido" id="Apellido">
 				</div>
-		  </section>
-		  
-		</div>  
-	</div> 
-	
+				<div>
+					<input type="text" class="form-control" placeholder="Contraseña" name="Nombre" id="Nombre">
+				</div>
+				
+				<div>
+					<script>
+						function alerta(){
+							alert("¡Felicidades, te has registrado!");
+						}
+					</script>
+					<a href="/" class="boton">
+						<input class="btn btn btn-info" type="button" onclick="alerta()" value="ingresa">
+					</a>
+				</div>
+				<div class="form-group col-8 offset-2">
+					<input type="checkbox"><label class="checkbox-inline">Recordame</label>
+				</div>
+
+			</form>
+	</div>
+</div>
+
+
 			<%- include('./partials/footer')  %> 
 
 	<!-- /footer -->

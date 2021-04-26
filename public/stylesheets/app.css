@@ -29,7 +29,7 @@ body {
 body {
   font-family: var(--base-font-family);
   font-weight: 300;
-  background-color: var(--light-gray);
+  background-color:rgb(160, 214, 246);
 }
 
 ul,
@@ -502,20 +502,28 @@ textarea.form-input {
   margin: 8px 0 ;
   box-sizing:border-box ; 
   zoom: 150%; 
-  align-items: flex-start;
+  text-align: center;
 }
 
 .form-control{
-  align-items:flex-start;
   width: max-content;
   border: 3px solid rgb(7, 185, 255);
-  padding: 8px 10px;
+  padding: 8px 200px;
   margin: 2px 2px;
+  text-align: center;
 }
 
 .cc{
   font-size: 15px;
   align-items: flex-start;
+}
+
+.row{
+  align-items: center;
+}
+
+.forr{
+  align-items: center;
 }
 
 /*====== Profile ======*/
