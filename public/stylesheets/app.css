@@ -198,7 +198,7 @@ hr {
   font-weight: 1000;
   color: rgb(7, 185, 255);
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana;
 }
 
 .product-box {
@@ -499,21 +499,20 @@ textarea.form-input {
   margin: 8px 0 ;
   box-sizing:border-box ; 
   zoom: 150%; 
-  align-items: center;
+  align-items: flex-start;
 }
 
 .form-control{
-  align-items: center;
+  align-items:flex-start;
   width: max-content;
   border: 3px solid rgb(7, 185, 255);
-  border-radius: 5px;
   padding: 8px 10px;
   margin: 2px 2px;
 }
 
 .cc{
   font-size: 15px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /*====== Profile ======*/
@@ -530,6 +529,7 @@ textarea.form-input {
 .main-title{
   font-size: 25px;
   margin-bottom: 10px;
+  font-family: Verdana;
 }
 
 .btn{
