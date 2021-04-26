@@ -14,7 +14,7 @@
 	<div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="products-title">Registrate</h2>
+				<h2 class="products-title">Crea tu cuenta</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
 			<form action="login.ejs" method="POST" class="formulario"> 
@@ -30,10 +30,11 @@
 				</div>
 				<div>
 					<input type="password" class="form-control" placeholder="Contraseña" name="Contraseña" id='Contra'>
-				</div>	
-				<div>
-					<input type="date" class="form-control" placeholder="Fecha de nacimiento" name="Nacimiento" id="Nac">
 				</div>
+				<div>
+					<input type="password" class="form-control" placeholder="Confirma la Contraseña" name="Contraseña" id='Contra'>
+				</div>	
+				
 				<div>
 					<script>
 						function alerta(){
@@ -41,7 +42,7 @@
 						}
 					</script>
 					<a href="/" class="boton">
-						<input class="btn btn btn-info" type="button" onclick="alerta()" value="Registrarse">
+						<input class="btn btn btn-info" type="button" onclick="alerta()" value="Crea tu cuenta">
 					</a>
 				</div>
 
