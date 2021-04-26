@@ -523,7 +523,10 @@ textarea.form-input {
 }
 
 .foto-perfil{
-  border-radius: 50%;
+  border-radius: 60%;
+  height: 130px;
+  width: auto;
+  margin-left: 0px;
 }
 
 .main-title{
@@ -531,6 +534,7 @@ textarea.form-input {
   margin-bottom: 10px;
   font-family: Verdana;
 }
+
 
 .btn{
   background-color: #1259c3;

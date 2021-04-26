@@ -5,8 +5,8 @@ let computadoras ={
             nombre: "MacBook Air",
             precio: "USD $1599",
             descripcion: "La MacBook Air MQD32LE/A de Apple cuenta con un diseño elegante y ligero. También, dispone de teclado retroiluminado para que puedas continuar escribiendo con poca luz ambiental y sensor integrado que ajusta automáticamente el brillo de la pantalla. Por otro lado, llevala con vos donde quieras gracias a sus medidas -17 mm de alto, 325 mm de ancho y 227 mm de profundidad- y su peso de tan solo 1,35 kilogramos.",
-            imagen: "mair.jpg"
-
+            imagen: "mair.jpg",
+    
 
         },
         {
